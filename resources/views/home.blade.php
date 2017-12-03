@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="art/favicon.png">
 
-        <title>100 Words -- Home</title>
+        <title>100 Words -- Home Page</title>
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" rel="stylesheet">
