@@ -121,7 +121,7 @@
         <!-- End Navigation Bar-->
 <div class="container">
 <div class="col-md-12 text-center">
-<h1 class="text-center" style="padding-top:100px;">1,389 writers<br>6,059 days<br>16,676,300 published words</h1>
+<h1 class="text-center" style="padding-top:100px;">1,400 writers<br>6,059 days<br>16,676,300 published words</h1>
 </div>
 </div>
 
