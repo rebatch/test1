@@ -1,0 +1,541 @@
+body {
+  color: #47453B;
+  background-color: #D4D8D1; }
+
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.container {
+  max-width: 997px !important;
+}
+.jumbotron.home-search {
+  background: transparent;
+}
+.thumbnail,
+.img-thumbnail {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-image: -webkit-linear-gradient(top, #007fff 0%, #0072e6 100%);
+  background-image: linear-gradient(to bottom, #007fff 0%, #0072e6 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff007fff', endColorstr='#ff0072e6', GradientType=0);
+  background-color: #0072e6;
+  color: #ffffff;
+}
+.footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+.footer {
+  padding-top: 19px;
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  background-color: #f7f7f7;
+}
+.footer strong {
+  color: #000;
+}
+.footer p {
+  margin-bottom: 0;
+}
+.footer .footer-links {
+  float: none;
+}
+.footer .footer-links a {
+  margin-left: 20px;
+  font-size: 11px;
+}
+.footer .footer-links a.active {
+  color: #333333;
+}
+
+
+/*
+#
+
+Login .modal-dialog,
+#modalSignup .modal-dialog {
+  width: 400px;
+}
+*/
+
+.topbar {
+  border: 3px solid #eaeaea;
+}
+.dividebar {
+  border: 1px solid #eaeaea;
+}
+
+/*
+JK Additions
+}
+*/
+
+.carouselThumbnails img {
+  display: inline-block;
+  max-width:50px;
+  margin:0px;
+  margin-top:8px;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.carouselThumbnails img:hover {
+	border: 1px solid #000;
+}
+
+.carouselThumbnails .active {
+	border: 2px solid #000;
+}
+
+
+.entry-share {
+  max-height: 50px;
+}
+
+.entry-date {
+ font-size: 20px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-top: 20px;
+}
+
+.entry-text {
+ margin-bottom: 40px;
+}
+
+.entry-photo {
+ margin-top: 20px;
+}
+
+.entry-divider {
+  margin: 20px 0 0 0;
+  border-top: 2px solid #8a8787;
+}
+
+.photo-credit {
+margin-top:5px;
+text-align: right;
+ font-size: 8px;
+ font-style: italic;
+ }
+
+.expand-panel {
+ margin-top: 2px;
+ margin-left: -15px;
+}
+
+
+/* Disabling links in entry preview mode */
+.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+
+
+.entry-picker .btn-xs {
+	text-align: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+	width: 30px;
+	}
+	
+.entry-picker .btn-md {
+    padding: 12px 16px 11px 14px;
+	width: 45px;}
+
+.entry-picker .btn-md.suppressed {
+	pointer-events: none;
+}
+
+.entry-picker h1 {
+text-transform: none;
+font-size: 2em;
+margin-top: 10px;
+padding-bottom:15px;
+border-bottom: 1px dotted gray;
+}
+
+.entry-picker h2 {
+text-transform: uppercase;
+font-size: 1.1em;
+margin: 20px 0 10px 0;
+}
+
+.entry-picker h3 {
+font-size: 1em;
+margin: 20px 0 5px 0;
+}
+
+.entry-picker hr {
+margin: 10px;
+background-color: #fff;
+width: 0px;
+}
+
+.batch-date .btn-sm {
+	text-align: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+	width: 42px;
+	}
+
+.batch-date .btn-md {
+    padding: 12px 16px 11px 14px;
+	width: 45px;
+	}
+	
+.subnav-buttons .btn {
+    margin-bottom: 5px;
+	
+}
+
+.page-title {
+	margin-bottom:10px;
+	margin-top:30px;
+}
+
+/* This styling for the batch and user panels */
+
+/* UI X */
+
+.ui-20{
+	margin:0px 0px 0px 0px;
+}
+/* Ui item */
+.ui-20 .ui-item{
+	padding:0px 20px 20px 20px;
+	border:1px solid #e5e5e5;
+	box-shadow:5px 5px 0px 1px rgba(0,0,0,0.05);
+	max-width:300px;
+	margin:20px auto;
+	background:#fff;
+}
+.ui-20 .ui-item img{
+	margin:0px auto 15px auto;
+}
+.ui-20 .ui-item h4{
+	text-align:center;
+	font-size:15px;
+	line-height:25px;
+	font-weight: bold;
+}
+.ui-20 .ui-item h5{
+	color:#aaa;
+	text-align:center;
+	font-size:14px;
+	font-weight:400;
+}
+.ui-20 .ui-item .expand {
+	color:#999;
+	text-align:center;
+}
+.ui-20 .ui-item ul{
+	margin:20px 0px;	
+}
+
+.ui-20 .ui-item ul li{
+	border-bottom:1px dashed #eee;
+	line-height:36px;
+	position:relative;
+}
+.ui-20 .ui-item ul li i{
+	display:inline-block;
+	width:30px;
+	text-align:center;
+}
+.ui-20 .ui-item ul li span{
+	position:absolute;
+	right:0px;
+	color:#999;
+}
+
+/* UI Follow */
+.ui-20 .ui-follow{
+	padding:3px 6px;
+	margin:15px auto;
+}
+.ui-20 .ui-follow h6{
+	color:#fff;
+	text-transform:uppercase;
+	font-size:12px;
+	text-align: center;
+}
+.ui-20 .ui-follow a{
+	color:#fff;
+}
+
+.bg-closing-soon {
+	font-weight: bold;
+	color: red !important;
+}
+
+
+.profile-photo {
+	margin-top:20px;
+}
+
+.member-stats {
+	margin-top:20px;
+	padding-top:0px;
+	background-color:#fff;
+ }
+
+.member-stats a, a:hover, a:active, a:visited {
+	text-decoration:none;
+}
+
+
+.member-stats .nav-tabs {
+	border-color:#fff;
+}
+
+.member-stats .nav-tabs > li > a,
+.member-stats .nav-tabs > li > a:hover,
+.member-stats .nav-tabs > li > a:focus,
+.member-stats .nav-tabs > .active > a,
+.member-stats .nav-tabs > .active > a:hover,
+.member-stats .nav-tabs > .active > a:focus {
+	padding-bottom:0px;
+	background-color: #fff;
+	font-weight:normal;
+	text-transform: none;
+	border-color: #fff;
+	width:91px;
+	}
+
+
+.member-stats hr {
+background-color: #D4D8D1;
+height: 5px;
+}
+
+.member-stats h1 {
+	color:#fff;
+	margin:0px;
+	padding:0px;
+	font-size:1.3em;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+.member-stats h2 {
+	color:#fff;
+	margin:0px;
+	padding:0px;
+	font-size:.75em;
+	line-height: 1.2em;
+}
+
+.member-stats h3 {
+	margin:0px 5px 0 0;
+	padding:0px;
+	font-size:2.2em;
+	font-weight: bold;
+	color: #525151;
+	text-align: center;
+}
+
+.member-stats h3:hover {
+	color:#000;
+}
+
+.member-stats h4 {
+	margin:0px;
+	padding:0px 0px 2px 0px;
+	font-size:.8em;
+	font-weight: normal;
+	color: #525151;
+	text-align: center;
+}
+
+.member-stats h4:hover {
+	color:#000;
+}
+
+.member-stats h5 {
+	font-size:1.2em;
+	text-align: center;
+	font-weight: bold;
+	color: #999999;
+	margin-bottom:0px;
+}
+
+.member-dropdown {
+	margin:0;
+	padding:0px 0px 10px 0px;
+}
+
+.member-dropdown .accordion-inner i {
+	color:#000;
+}
+
+.member-dropdown h1 {
+	color:#000;
+	margin:0px 0 10px 0;
+	padding:0px;
+	font-size:1em;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+.member-dropdown h2 {
+	color:#000;
+	margin:0px 0 10px 0px;
+	padding:0px;
+	font-size:1em;
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+.member-dropdown .panel-title {
+	font-size:1.0em;
+	color:#000;
+	line-height:3em;
+}
+
+.member-dropdown .panel-title:hover {
+	text-decoration: underline;
+}
+
+
+.member-dropdown img {
+	margin:10px 13px 0 0px;
+	padding:0px;
+	max-width:55px;
+	}
+
+.member-dropdown .badge {
+	background-color: #3A8DA6;
+	color:#fff;
+	margin: 0 5px 2px 0;
+	padding:4px;
+	width:45px;
+}
+
+
+
+.member-profile {
+	margin-top:20px;
+	padding:0;
+}
+
+.member-profile h1 {
+	font-size:2.2em;
+	margin-top:00px;
+	font-weight: bold;
+}
+
+.member-profile h2 {
+	font-size:1.2em;
+	margin-top:20px;
+	font-weight: bold;
+}
+
+.user-panel p {
+text-align: right;
+font-weight: bold;
+line-height: .8em;
+}
+
+.user-panel p.options {
+font-weight: normal;
+font-size: .9em;
+text-transform: uppercase;
+margin-bottom:20px;
+}
+
+.user-panel img {
+max-width:100px;
+margin-top:10px;
+margin-bottom:5px;
+}
+
+.logo img {
+max-height:25px;
+margin:0;
+padding:0;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+body { padding-top: 120px; }
+}
+
+@media (max-width: 991px) {
+body { padding-top: 50px; }
+}
+
+
+
+
+
+.sidebar-date {
+	margin: 30px auto;
+	background: #fff;
+	text-align: center;
+	position: relative;
+	border: 1px dotted #b2b1b1;
+	padding-bottom:15px;
+	margin: 25px 0 5px 0;
+}
+
+.sidebar-date .month {
+	background: #2f455c;
+	display: block;
+	padding: 8px 0;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.sidebar-date .day {
+	display: block;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 6em;
+	position: relative;
+	line-height:.8em;
+}
+
+.sidebar-date .year {
+	display: block;
+	margin: 0;
+	padding: 0px 0 0;
+	font-size: 22px;
+	position: relative;
+	font-weight: bold;
+	line-height:.8em;
+}
+
+
+
+
+
+
+
