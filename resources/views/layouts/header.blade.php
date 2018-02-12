@@ -28,3 +28,94 @@
         <![endif]-->
    </head>
 
+<body>
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main">
+                <div class="container">
+
+                    <!-- Logo container-->
+                    <div class="logo hidden-xs">
+                        <a href="index.php" class="logo"><span><img src="art/logo-header.png"></span> </a>
+                    </div>
+                    <div class="logo hidden-sm hidden-md hidden-lg visible-xs-*">
+                        <a href="index.php" class="logo"><span><img src="art/logo-header-xs.png"></span> </a>
+                    </div>
+                    <!-- End Logo container-->
+
+                    <div class="menu-extras">
+
+                        <ul class="nav navbar-nav navbar-right pull-right">
+                            <li>
+                                <form role="search" class="navbar-left app-search pull-left hidden-xs">
+                                     <input type="text" placeholder="Search..." class="form-control">
+                                     <a href="search.php"><i class="fa fa-search"></i></a>
+                                </form>
+                            </li>
+
+                            <li class="dropdown">
+                                    <li><a href="user-login.php">Sign In</a></li>
+                            </li>
+
+                        </ul>
+
+                        <div class="menu-item">
+                            <!-- Mobile menu toggle-->
+                            <a class="navbar-toggle">
+                                <div class="lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <!-- End mobile menu toggle-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End topbar -->
+
+
+            <!-- Navbar Start -->
+            <div class="navbar-custom">
+                <div class="container">
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu">
+                        <li class="has-submenu ">
+                            <a href="/read"><i class="fa fa-eye"></i>Read</a>
+<!--                            <ul class="submenu">
+                                <li><a href="read-by-batch.php">By Batch</a></li>
+                                <li><a href="read-by-date.php">By Date</a></li>
+                                <li><a href="read-by-writer.php">By Writer</a></li>
+                                <li><a href="read-random.php">Random Entry</a></li>
+                            </ul>
+-->
+                        </li>
+                        <li class="has-submenu ">
+                            <a href="/write"><i class="fa fa-pencil"></i>Write</a>
+                        </li>
+                        <li class="has-submenu ">
+                            <a href="/members"><i class="fa fa-user"></i>Meet Our Writers</a>
+                        </li>
+                        <li class="has-submenu ">
+                            <a href="/batch/create"><i class="fa fa-gears"></i>Create a Batch</a>
+                        </li>
+                        <li class="has-submenu hidden-sm hidden-md hidden-lg visible-xs-* ">
+                            <a href="search.php"><i class="fa fa-search"></i>Search</a>
+                        </li>
+
+                        <li class="has-submenu ">
+                            <a href="/member/signup"><i class="fa fa-thumbs-up"></i>Join Us</a>
+                        </li>
+
+
+
+                    </ul>
+                    <!-- End navigation menu -->
+                </div>
+            </div>
+            </div>
+        </header>
+        <!-- End Navigation Bar-->
