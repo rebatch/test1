@@ -1,9 +1,8 @@
-@extends ('layouts.master');
+@extends ('layouts.master')
 
 @section('content')
 
 <div class="container">
-
 
 <!-- UI X -->
 <div class="ui-20">
@@ -51,7 +50,7 @@
 <!-- Batch Info Begin --> <div class="col-md-3 col-sm-6"> <div class="ui-item"> <a data-
 toggle="collapse" href="#collapseDetails0" aria-expanded="false" aria-
 controls="collapseDetails0"><h4>October 2014</h4></a> <a data-toggle="collapse"
-href="#collapseDetails0" aria-expanded="false" aria- controls="collapseDetails0"><img src="art
+href="#collapseDetails0" aria-expanded="false" aria- controls="collapseDetails0"><img src="/art
 /batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a> <a data-
 toggle="collapse" href="#collapseDetails0" aria-expanded="false" aria-
 controls="collapseDetails0"><p class="expand"><i class="fa fa-chevron- down"></i></p></a>
@@ -95,7 +94,7 @@ controls="collapseDetails0"><p class="expand"><i class="fa fa-chevron- down"></i
 <!-- Batch Info Begin --> <div class="col-md-3 col-sm-6"> <div class="ui-item"> <a data-
 toggle="collapse" href="#collapseDetails1" aria-expanded="false" aria-
 controls="collapseDetails1"><h4>September 2014</h4></a> <a data-toggle="collapse"
-href="#collapseDetails1" aria-expanded="false" aria- controls="collapseDetails1"><img src="art
+href="#collapseDetails1" aria-expanded="false" aria- controls="collapseDetails1"><img src="/art
 /batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a> <a data-
 toggle="collapse" href="#collapseDetails1" aria-expanded="false" aria-
 controls="collapseDetails1"><p class="expand"><i class="fa fa-chevron- down"></i></p></a>
@@ -139,7 +138,7 @@ controls="collapseDetails1"><p class="expand"><i class="fa fa-chevron- down"></i
 <!-- Batch Info Begin --> <div class="col-md-3 col-sm-6"> <div class="ui-item"> <a data-
 toggle="collapse" href="#collapseDetails2" aria-expanded="false" aria-
 controls="collapseDetails2"><h4>August 2014</h4></a> <a data-toggle="collapse"
-href="#collapseDetails2" aria-expanded="false" aria- controls="collapseDetails2"><img src="art
+href="#collapseDetails2" aria-expanded="false" aria- controls="collapseDetails2"><img src="/art
 /batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a> <a data-
 toggle="collapse" href="#collapseDetails2" aria-expanded="false" aria-
 controls="collapseDetails2"><p class="expand"><i class="fa fa-chevron- down"></i></p></a>
@@ -183,7 +182,7 @@ controls="collapseDetails2"><p class="expand"><i class="fa fa-chevron- down"></i
 <!-- Batch Info Begin --> <div class="col-md-3 col-sm-6"> <div class="ui-item"> <a data-
 toggle="collapse" href="#collapseDetails3" aria-expanded="false" aria-
 controls="collapseDetails3"><h4>July 2014</h4></a> <a data-toggle="collapse"
-href="#collapseDetails3" aria-expanded="false" aria- controls="collapseDetails3"><img src="art
+href="#collapseDetails3" aria-expanded="false" aria- controls="collapseDetails3"><img src="/art
 /batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a> <a data-
 toggle="collapse" href="#collapseDetails3" aria-expanded="false" aria-
 controls="collapseDetails3"><p class="expand"><i class="fa fa-chevron- down"></i></p></a>
@@ -227,7 +226,7 @@ controls="collapseDetails3"><p class="expand"><i class="fa fa-chevron- down"></i
 <!-- Batch Info Begin --> <div class="col-md-3 col-sm-6"> <div class="ui-item"> <a data-
 toggle="collapse" href="#collapseDetails4" aria-expanded="false" aria-
 controls="collapseDetails4"><h4>June 2014</h4></a> <a data-toggle="collapse"
-href="#collapseDetails4" aria-expanded="false" aria- controls="collapseDetails4"><img src="art
+href="#collapseDetails4" aria-expanded="false" aria- controls="collapseDetails4"><img src="/art
 /batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a> <a data-
 toggle="collapse" href="#collapseDetails4" aria-expanded="false" aria-
 controls="collapseDetails4"><p class="expand"><i class="fa fa-chevron- down"></i></p></a>
@@ -271,7 +270,7 @@ controls="collapseDetails4"><p class="expand"><i class="fa fa-chevron- down"></i
 <!-- Batch Info Begin --> <div class="col-md-3 col-sm-6"> <div class="ui-item"> <a data-
 toggle="collapse" href="#collapseDetails5" aria-expanded="false" aria-
 controls="collapseDetails5"><h4>May 2014</h4></a> <a data-toggle="collapse"
-href="#collapseDetails5" aria-expanded="false" aria- controls="collapseDetails5"><img src="art
+href="#collapseDetails5" aria-expanded="false" aria- controls="collapseDetails5"><img src="/art
 /batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a> <a data-
 toggle="collapse" href="#collapseDetails5" aria-expanded="false" aria-
 controls="collapseDetails5"><p class="expand"><i class="fa fa-chevron- down"></i></p></a>

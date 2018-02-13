@@ -1,4 +1,4 @@
-@extends ('layouts.master');
+@extends ('layouts.master')
 
 @section('content')
 
@@ -48,7 +48,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails1" aria-expanded="false" aria-controls="collapseDetails1"><h4>January 2016</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails1" aria-expanded="false" aria-controls="collapseDetails1"><img src="art/batch-icons/january-2016.png" alt="January 2016" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails1" aria-expanded="false" aria-controls="collapseDetails1"><img src="/art/batch-icons/january-2016.png" alt="January 2016" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails1" aria-expanded="false" aria-controls="collapseDetails1"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -115,7 +115,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails2" aria-expanded="false" aria-controls="collapseDetails2"><h4>February 2016</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails2" aria-expanded="false" aria-controls="collapseDetails2"><img src="art/batch-icons/february-2016.png" alt="February 2016" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails2" aria-expanded="false" aria-controls="collapseDetails2"><img src="/art/batch-icons/february-2016.png" alt="February 2016" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails2" aria-expanded="false" aria-controls="collapseDetails2"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -181,7 +181,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails3" aria-expanded="false" aria-controls="collapseDetails3"><h4>Vegan Life</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails3" aria-expanded="false" aria-controls="collapseDetails3"><img src="art/batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails3" aria-expanded="false" aria-controls="collapseDetails3"><img src="/art/batch-icons/vegan-life.png" alt="Vegan Life" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails3" aria-expanded="false" aria-controls="collapseDetails3"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -265,7 +265,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails4" aria-expanded="false" aria-controls="collapseDetails4"><h4>Fuck Valentine's Day (All Month!)</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails4" aria-expanded="false" aria-controls="collapseDetails4"><img src="art/batch-icons/fuck-valentines-day-all-month.png" alt="Fuck Valentine's Day (All Month!)" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails4" aria-expanded="false" aria-controls="collapseDetails4"><img src="/art/batch-icons/fuck-valentines-day-all-month.png" alt="Fuck Valentine's Day (All Month!)" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails4" aria-expanded="false" aria-controls="collapseDetails4"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -330,7 +330,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails5" aria-expanded="false" aria-controls="collapseDetails5"><h4>David Bowie's Bulge</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails5" aria-expanded="false" aria-controls="collapseDetails5"><img src="art/batch-icons/david-bowies-bulge.png" alt="David Bowie's Bulge" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails5" aria-expanded="false" aria-controls="collapseDetails5"><img src="/art/batch-icons/david-bowies-bulge.png" alt="David Bowie's Bulge" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails5" aria-expanded="false" aria-controls="collapseDetails5"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -395,7 +395,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails6" aria-expanded="false" aria-controls="collapseDetails6"><h4>Puppies!</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails6" aria-expanded="false" aria-controls="collapseDetails6"><img src="art/batch-icons/puppies.png" alt="Puppies!" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails6" aria-expanded="false" aria-controls="collapseDetails6"><img src="/art/batch-icons/puppies.png" alt="Puppies!" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails6" aria-expanded="false" aria-controls="collapseDetails6"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -460,7 +460,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails7" aria-expanded="false" aria-controls="collapseDetails7"><h4>You Should Love Marty Feldman</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails7" aria-expanded="false" aria-controls="collapseDetails7"><img src="art/batch-icons/you-should-love-marty-feldman.png" alt="You Should Love Marty Feldman" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails7" aria-expanded="false" aria-controls="collapseDetails7"><img src="/art/batch-icons/you-should-love-marty-feldman.png" alt="You Should Love Marty Feldman" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails7" aria-expanded="false" aria-controls="collapseDetails7"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -539,7 +539,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails8" aria-expanded="false" aria-controls="collapseDetails8"><h4>Donald Trump Is the Best</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails8" aria-expanded="false" aria-controls="collapseDetails8"><img src="art/batch-icons/donald-trump-is-the-best.png" alt="Donald Trump Is the Best" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails8" aria-expanded="false" aria-controls="collapseDetails8"><img src="/art/batch-icons/donald-trump-is-the-best.png" alt="Donald Trump Is the Best" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails8" aria-expanded="false" aria-controls="collapseDetails8"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -604,7 +604,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails9" aria-expanded="false" aria-controls="collapseDetails9"><h4>Donald Trump Is the Worst</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails9" aria-expanded="false" aria-controls="collapseDetails9"><img src="art/batch-icons/donald-trump-is-the-worst.png" alt="Donald Trump Is the Worst" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails9" aria-expanded="false" aria-controls="collapseDetails9"><img src="/art/batch-icons/donald-trump-is-the-worst.png" alt="Donald Trump Is the Worst" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails9" aria-expanded="false" aria-controls="collapseDetails9"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -669,7 +669,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails10" aria-expanded="false" aria-controls="collapseDetails10"><h4>May 2016</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails10" aria-expanded="false" aria-controls="collapseDetails10"><img src="art/batch-icons/may-2016.png" alt="May 2016" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails10" aria-expanded="false" aria-controls="collapseDetails10"><img src="/art/batch-icons/may-2016.png" alt="May 2016" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails10" aria-expanded="false" aria-controls="collapseDetails10"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -734,7 +734,7 @@ Future: Starts/Ends
 <div class="col-md-3 col-sm-6">
 <div class="ui-item">
     <a data-toggle="collapse" href="#collapseDetails11" aria-expanded="false" aria-controls="collapseDetails11"><h4>June 2016</h4></a>
-    <a data-toggle="collapse" href="#collapseDetails11" aria-expanded="false" aria-controls="collapseDetails11"><img src="art/batch-icons/june-2016.png" alt="June 2016" class="img-responsive img-thumbnail" /></a>
+    <a data-toggle="collapse" href="#collapseDetails11" aria-expanded="false" aria-controls="collapseDetails11"><img src="/art/batch-icons/june-2016.png" alt="June 2016" class="img-responsive img-thumbnail" /></a>
 <a data-toggle="collapse" href="#collapseDetails11" aria-expanded="false" aria-controls="collapseDetails11"><p class="expand"><i class="fa fa-chevron-down"></i></p></a>
 
 <!-- Details Expandable Area-->
@@ -862,7 +862,6 @@ Future: Starts/Ends
             <div class="modal-body">
                 <p>You are automatically added to the ongoing monthly batches. To opt out, please de-select the option under <strong><a href="account-entries.php">Your Account: Entries & Batches</a></strong>. Or, you can leave individual batches below.</p>
             </div>
-
 
             <div class="modal-footer">
             <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Close</button>
