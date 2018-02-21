@@ -1,5 +1,18 @@
 <?php
 
+use App\Task;
+
+Route::get('/tasks', function () {
+
+	// $tasks = DB::table('tasks')->get(); 
+
+	// $tasks = DB::table('tasks')->get();
+
+			$tasks = Task::all();
+
+    return view('tasks.index', compact('tasks'));
+});
+
 Route::get('/', 'PostsController@index');
 
 Route::get('/batch/read', 'BatchesController@index');
