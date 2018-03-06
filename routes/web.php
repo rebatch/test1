@@ -1,17 +1,9 @@
 <?php
 
-use App\Task;
+Route::get('/tasks/', 'TasksController@index');
 
-Route::get('/tasks', function () {
+Route::get('/tasks/{task}', 'TasksController@show');
 
-	// $tasks = DB::table('tasks')->get(); 
-
-	// $tasks = DB::table('tasks')->get();
-
-			$tasks = Task::all();
-
-    return view('tasks.index', compact('tasks'));
-});
 
 Route::get('/', 'PostsController@index');
 

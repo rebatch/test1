@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Task;
+
 use Illuminate\Http\Request;
 
-class TaskController extends Controller
+class TasksController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +15,12 @@ class TaskController extends Controller
      */
     public function index()
     {
-        //
+        $tasks = Task::all();
+
+        return view('tasks.index', compact('tasks'));
+
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -46,8 +51,9 @@ class TaskController extends Controller
      */
     public function show(Task $task)
     {
-        //
-    }
+        // $task = Task::find($id);
+
+        return view('tasks.show', compact('task'));    }
 
     /**
      * Show the form for editing the specified resource.
