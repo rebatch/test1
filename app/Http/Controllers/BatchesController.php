@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Batch;
+
 use Illuminate\Http\Request;
 
 class BatchesController extends Controller
@@ -24,5 +26,15 @@ class BatchesController extends Controller
 	{
 		return view('batches.create');
 	}
+
+	public function show(Batch $batch)
+	{
+	    // $task = Task::find($id);
+
+		// dd($batch);
+
+	    return view('batches.show', compact('batch'));    
+	}
+
 
 }
